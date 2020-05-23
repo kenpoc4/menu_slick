@@ -1,0 +1,27 @@
+/* slickNav */
+.slicknav_menu {
+    background: linear-gradient(50deg, #ff6600 , #f18100 50%, #ff6600);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .slicknav_menu {
+        display: none;
+    }
+}
+.slicknav_btn {
+    background: linear-gradient(50deg, #ff6600 , #f18100 50%, #ff6600);
+    margin: 2rem 0;
+    padding: 1.3rem;
+    border: 2px solid #75214f;
+}
+.slicknav_nav a {
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: var(--FuentePop);
+}
+.slicknav_nav a:hover {
+    background: transparent;
+    color: #6d0d42;
+}
